@@ -28,6 +28,13 @@ github_username: peterpengnz
 theme: minima
 plugins:
   - jekyll-feed
+minima:
+  skin: classic
+  show_excerpts: true
+  social_links:
+    - title: My YouTube Channel
+      icon: youtube
+      url: "https://www.youtube.com/@LoveRubyAndRails"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
