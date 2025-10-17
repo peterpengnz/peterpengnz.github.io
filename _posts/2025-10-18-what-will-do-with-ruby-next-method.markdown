@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "What will you do with Next Method in Ruby String#?"
-date: 2025-10-18 10:00:00 +0000
-categories: ruby string next
+date: 2025-10-17 10:00:00 +0000
 ---
 
 # 🔍 Exploring Ruby's `String#next` Method
@@ -93,3 +92,10 @@ Even special characters follow ASCII progression. The empty string remains uncha
 - [Ruby API: String#succ](https://rubyapi.org/3.4/o/string#method-i-succ)
 - [ASCII Table – Wikipedia](https://en.wikipedia.org/wiki/ASCII)
 - [ASCII Code Reference](https://www.ascii-code.com/)
+
+### Youtube Video
+
+Checkout my video about this in Chinese:
+Ruby 里面有趣的 String#next 方法（也叫 String#succ）
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5h9RM_2WSxQ?si=mtyA0abqjva2yfHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

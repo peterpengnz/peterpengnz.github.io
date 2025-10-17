@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-10-17T20:59:46+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-10-14T08:04:16+00:00</published><updated>2025-10-14T08:04:16+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-10-17T21:17:52+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Peter’s Github Page</title><subtitle></subtitle><entry><title type="html">What will you do with Next Method in Ruby String#?</title><link href="http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html" rel="alternate" type="text/html" title="What will you do with Next Method in Ruby String#?" /><published>2025-10-17T10:00:00+00:00</published><updated>2025-10-17T10:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method</id><content type="html" xml:base="http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html"><![CDATA[<h1 id="-exploring-rubys-stringnext-method">🔍 Exploring Ruby’s <code class="language-plaintext highlighter-rouge">String#next</code> Method</h1>
+
+<p>Ruby’s <code class="language-plaintext highlighter-rouge">String#next</code> (also known as <code class="language-plaintext highlighter-rouge">succ</code>) is a surprisingly powerful method that can increment strings in intuitive and sometimes unexpected ways. Whether you’re working with numbers, letters, or even special characters, <code class="language-plaintext highlighter-rouge">next</code> can be a handy tool in your Ruby toolkit.</p>
+
+<hr />
+
+<h2 id="-what-is-stringnext">🧠 What Is <code class="language-plaintext highlighter-rouge">String#next</code>?</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">next</code> method returns the successor to a string. It’s part of Ruby’s <code class="language-plaintext highlighter-rouge">String</code> class and is often used to increment strings in a way that mimics counting.</p>
+
+<h3 id="examples">Examples:</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"1"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "2"</span>
+<span class="s2">"9"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "10"</span>
+<span class="s2">"a"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "b"</span>
+<span class="s2">"z"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "aa"</span>
+<span class="s2">"9z"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "a0"</span>
+<span class="s2">"z9"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "aa0"</span>
+<span class="s2">"!"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "\""</span>
+<span class="s2">"ZZ"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "AAA"</span>
+</code></pre></div></div>
+
+<h3 id="-related-methods">📚 Related Methods</h3>
+
+<p>Ruby provides four related methods:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">next</code></li>
+  <li><code class="language-plaintext highlighter-rouge">next!</code></li>
+  <li><code class="language-plaintext highlighter-rouge">succ</code></li>
+  <li><code class="language-plaintext highlighter-rouge">succ!</code></li>
+</ul>
+
+<p>The non-bang versions return a new string, while the bang versions modify the original string in place.</p>
+
+<h3 id="-numeric-strings">🔢 Numeric Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"9".next     # =&gt; "10"
+"99".next    # =&gt; "100"
+</code></pre></div></div>
+
+<p>Ruby treats numeric strings like counters, rolling over digits as needed.</p>
+
+<h3 id="-alphabetic-strings">🔤 Alphabetic Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"a".next # =&gt; "b"
+"z".next # =&gt; "aa"
+"az".next # =&gt; "ba"
+"zz".next # =&gt; "aaa"
+</code></pre></div></div>
+
+<p>Just like an odometer, letters roll over from z to aa, az to ba, and so on.</p>
+
+<h3 id="-alphanumeric-strings">🔡 Alphanumeric Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"1a".next # =&gt; "1b"
+"1z".next # =&gt; "2a"
+"1az".next # =&gt; "1ba"
+"1aaz".next # =&gt; "1aba"
+"z9".next # =&gt; "aa0"
+</code></pre></div></div>
+
+<p>Ruby handles mixed strings with surprising intelligence, incrementing the rightmost alphanumeric segment.</p>
+
+<h3 id="-special-characters">🔣 Special Characters</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"!".next # =&gt; "\""
+"~".next # =&gt; "\u007F" # DEL in ASCII
+"".next # =&gt; ""
+</code></pre></div></div>
+
+<p>Even special characters follow ASCII progression. The empty string remains unchanged.</p>
+
+<h3 id="-why-use-stringnext">🤔 Why Use String#next?</h3>
+
+<ul>
+  <li>Generate unique IDs or codes</li>
+  <li>Create alphabetical pagination</li>
+  <li>Build custom counters</li>
+  <li>Explore ASCII behavior in strings</li>
+</ul>
+
+<h3 id="-references">📎 References</h3>
+
+<ul>
+  <li><a href="https://rubyapi.org/3.4/o/string#method-i-succ">Ruby API: String#succ</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/ASCII">ASCII Table – Wikipedia</a></li>
+  <li><a href="https://www.ascii-code.com/">ASCII Code Reference</a></li>
+</ul>
+
+<h3 id="youtube-video">Youtube Video</h3>
+
+<p>Checkout my video about this in Chinese:
+Ruby 里面有趣的 String#next 方法（也叫 String#succ）</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5h9RM_2WSxQ?si=mtyA0abqjva2yfHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[🔍 Exploring Ruby’s String#next Method]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-10-14T08:04:16+00:00</published><updated>2025-10-14T08:04:16+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2025/10/14/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>What will you do with Next Method in Ruby String#? | Peter’s Github Page</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="What will you do with Next Method in Ruby String#?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="🔍 Exploring Ruby’s String#next Method" />
+<meta property="og:description" content="🔍 Exploring Ruby’s String#next Method" />
+<link rel="canonical" href="http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html" />
+<meta property="og:site_name" content="Peter’s Github Page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-10-17T10:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="What will you do with Next Method in Ruby String#?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-17T10:00:00+00:00","datePublished":"2025-10-17T10:00:00+00:00","description":"🔍 Exploring Ruby’s String#next Method","headline":"What will you do with Next Method in Ruby String#?","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html"},"url":"http://0.0.0.0:4000/2025/10/17/what-will-do-with-ruby-next-method.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Peter&apos;s Github Page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Peter&#39;s Github Page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">What will you do with Next Method in Ruby String#?</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-10-17T10:00:00+00:00" itemprop="datePublished">Oct 17, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="-exploring-rubys-stringnext-method">🔍 Exploring Ruby’s <code class="language-plaintext highlighter-rouge">String#next</code> Method</h1>
+
+<p>Ruby’s <code class="language-plaintext highlighter-rouge">String#next</code> (also known as <code class="language-plaintext highlighter-rouge">succ</code>) is a surprisingly powerful method that can increment strings in intuitive and sometimes unexpected ways. Whether you’re working with numbers, letters, or even special characters, <code class="language-plaintext highlighter-rouge">next</code> can be a handy tool in your Ruby toolkit.</p>
+
+<hr />
+
+<h2 id="-what-is-stringnext">🧠 What Is <code class="language-plaintext highlighter-rouge">String#next</code>?</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">next</code> method returns the successor to a string. It’s part of Ruby’s <code class="language-plaintext highlighter-rouge">String</code> class and is often used to increment strings in a way that mimics counting.</p>
+
+<h3 id="examples">Examples:</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"1"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "2"</span>
+<span class="s2">"9"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "10"</span>
+<span class="s2">"a"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "b"</span>
+<span class="s2">"z"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "aa"</span>
+<span class="s2">"9z"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "a0"</span>
+<span class="s2">"z9"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "aa0"</span>
+<span class="s2">"!"</span><span class="p">.</span><span class="nf">next</span>     <span class="c1"># =&gt; "\""</span>
+<span class="s2">"ZZ"</span><span class="p">.</span><span class="nf">next</span>    <span class="c1"># =&gt; "AAA"</span>
+</code></pre></div></div>
+
+<h3 id="-related-methods">📚 Related Methods</h3>
+
+<p>Ruby provides four related methods:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">next</code></li>
+  <li><code class="language-plaintext highlighter-rouge">next!</code></li>
+  <li><code class="language-plaintext highlighter-rouge">succ</code></li>
+  <li><code class="language-plaintext highlighter-rouge">succ!</code></li>
+</ul>
+
+<p>The non-bang versions return a new string, while the bang versions modify the original string in place.</p>
+
+<h3 id="-numeric-strings">🔢 Numeric Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"9".next     # =&gt; "10"
+"99".next    # =&gt; "100"
+</code></pre></div></div>
+
+<p>Ruby treats numeric strings like counters, rolling over digits as needed.</p>
+
+<h3 id="-alphabetic-strings">🔤 Alphabetic Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"a".next # =&gt; "b"
+"z".next # =&gt; "aa"
+"az".next # =&gt; "ba"
+"zz".next # =&gt; "aaa"
+</code></pre></div></div>
+
+<p>Just like an odometer, letters roll over from z to aa, az to ba, and so on.</p>
+
+<h3 id="-alphanumeric-strings">🔡 Alphanumeric Strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"1a".next # =&gt; "1b"
+"1z".next # =&gt; "2a"
+"1az".next # =&gt; "1ba"
+"1aaz".next # =&gt; "1aba"
+"z9".next # =&gt; "aa0"
+</code></pre></div></div>
+
+<p>Ruby handles mixed strings with surprising intelligence, incrementing the rightmost alphanumeric segment.</p>
+
+<h3 id="-special-characters">🔣 Special Characters</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"!".next # =&gt; "\""
+"~".next # =&gt; "\u007F" # DEL in ASCII
+"".next # =&gt; ""
+</code></pre></div></div>
+
+<p>Even special characters follow ASCII progression. The empty string remains unchanged.</p>
+
+<h3 id="-why-use-stringnext">🤔 Why Use String#next?</h3>
+
+<ul>
+  <li>Generate unique IDs or codes</li>
+  <li>Create alphabetical pagination</li>
+  <li>Build custom counters</li>
+  <li>Explore ASCII behavior in strings</li>
+</ul>
+
+<h3 id="-references">📎 References</h3>
+
+<ul>
+  <li><a href="https://rubyapi.org/3.4/o/string#method-i-succ">Ruby API: String#succ</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/ASCII">ASCII Table – Wikipedia</a></li>
+  <li><a href="https://www.ascii-code.com/">ASCII Code Reference</a></li>
+</ul>
+
+<h3 id="youtube-video">Youtube Video</h3>
+
+<p>Checkout my video about this in Chinese:
+Ruby 里面有趣的 String#next 方法（也叫 String#succ）</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5h9RM_2WSxQ?si=mtyA0abqjva2yfHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+  </div><a class="u-url" href="/2025/10/17/what-will-do-with-ruby-next-method.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Peter&#39;s Github Page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Peter&#39;s Github Page</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/peterpengnz"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">peterpengnz</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
