@@ -4,19 +4,16 @@ title: "What will you do with Next Method in Ruby String#?"
 date: 2025-10-17 10:00:00 +0000
 ---
 
-# 🔍 Exploring Ruby's `String#next` Method
+### 🔍 探索 Ruby 的 String#next 方法
 
-Ruby’s `String#next` (also known as `succ`) is a surprisingly powerful method that can increment strings in intuitive and sometimes unexpected ways. Whether you're working with numbers, letters, or even special characters, `next` can be a handy tool in your Ruby toolkit.
+Ruby 的 `String#next`（也叫 `succ`）是一个功能强大的方法，它可以以直观甚至出人意料的方式递增字符串。无论你处理的是数字、字母，还是特殊字符，`next` 都是 Ruby 工具箱中非常实用的一员。
 
----
+🧠 什么是 `String#next`？
+`next` 方法返回一个字符串的“后继值”。它属于 Ruby 的 `String` 类，常用于以类似计数的方式递增字符串。
 
-## 🧠 What Is `String#next`?
+示例：
 
-The `next` method returns the successor to a string. It’s part of Ruby’s `String` class and is often used to increment strings in a way that mimics counting.
-
-### Examples:
-
-```ruby
+```
 "1".next     # => "2"
 "9".next     # => "10"
 "a".next     # => "b"
@@ -27,27 +24,27 @@ The `next` method returns the successor to a string. It’s part of Ruby’s `St
 "ZZ".next    # => "AAA"
 ```
 
-### 📚 Related Methods
+### 📚 相关方法
 
-Ruby provides four related methods:
+Ruby 提供了四个相关方法：
 
 - `next`
 - `next!`
 - `succ`
 - `succ!`
 
-The non-bang versions return a new string, while the bang versions modify the original string in place.
+不带感叹号的方法会返回一个新的字符串，而带感叹号的方法会直接修改原字符串。
 
-### 🔢 Numeric Strings
+### 🔢 数字字符串
 
 ```
 "9".next     # => "10"
 "99".next    # => "100"
 ```
 
-Ruby treats numeric strings like counters, rolling over digits as needed.
+Ruby 会将数字字符串当作计数器处理，自动进位。
 
-### 🔤 Alphabetic Strings
+### 🔤 字母字符串
 
 ```
 "a".next # => "b"
@@ -56,9 +53,9 @@ Ruby treats numeric strings like counters, rolling over digits as needed.
 "zz".next # => "aaa"
 ```
 
-Just like an odometer, letters roll over from z to aa, az to ba, and so on.
+就像里程表一样，字母从 `z` 滚动到 `aa`，从 `az` 到 `ba`，以此类推。
 
-### 🔡 Alphanumeric Strings
+### 🔡 字母数字混合字符串
 
 ```
 "1a".next # => "1b"
@@ -68,34 +65,33 @@ Just like an odometer, letters roll over from z to aa, az to ba, and so on.
 "z9".next # => "aa0"
 ```
 
-Ruby handles mixed strings with surprising intelligence, incrementing the rightmost alphanumeric segment.
+Ruby 会智能地处理混合字符串，递增最右侧的字母数字部分。
 
-### 🔣 Special Characters
+### 🔣 特殊字符
 
 ```
 "!".next # => "\""
-"~".next # => "\u007F" # DEL in ASCII
+"~".next # => "\u007F" # ASCII 中的 DEL
 "".next # => ""
 ```
 
-Even special characters follow ASCII progression. The empty string remains unchanged.
+即使是特殊字符也遵循 `ASCII` 的递增规则。空字符串保持不变。
 
-### 🤔 Why Use String#next?
+🤔 为什么使用 `String#next`？
 
-- Generate unique IDs or codes
-- Create alphabetical pagination
-- Build custom counters
-- Explore ASCII behavior in strings
+- 生成唯一的 ID 或编码
+- 创建字母分页
+- 构建自定义计数器
+- 探索字符串中的 ASCII 行为
 
-### 📎 References
+### 📎 参考资料
 
 - [Ruby API: String#succ](https://rubyapi.org/3.4/o/string#method-i-succ)
 - [ASCII Table – Wikipedia](https://en.wikipedia.org/wiki/ASCII)
 - [ASCII Code Reference](https://www.ascii-code.com/)
 
-### Youtube Video
+## Youtube 视频
 
-Checkout my video about this in Chinese:
-Ruby 里面有趣的 String#next 方法（也叫 String#succ）
+欢迎观看我用中文讲解的这段视频： Ruby 里面有趣的 String#next 方法（也叫 String#succ）
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5h9RM_2WSxQ?si=mtyA0abqjva2yfHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
