@@ -95,3 +95,7 @@ Ruby 会智能地处理混合字符串，递增最右侧的字母数字部分。
 欢迎观看我用中文讲解的这段视频： Ruby 里面有趣的 String#next 方法（也叫 String#succ）
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5h9RM_2WSxQ?si=mtyA0abqjva2yfHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Jekyll 是 2013 ~ 2025 年最受欢迎的 Static Website Generation ruby gem:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qSsF3Oc50mw?si=WNtDELdyBInaWVwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
