@@ -1,0 +1,104 @@
+---
+layout: post
+title: "Rails 测试和那些大家都在用的测试相关的Ruby Gems"
+date: 2025-10-24 10:00:00 +0000
+---
+
+### 🔍 Rails 测试
+
+测试可能是程序员最好的帮手了。如果测试写的合理，它能给你最大限度的自信你来修改代码而不用担心会不会把其他地方弄坏了。
+Rails 提供的 Guide 里面详细的介绍了在 Rails 的各个方面应该如何测试： https://guides.rubyonrails.org/testing.html
+里面列举了几个默认设置下使用的 Gems：
+
+- Minitest
+- Selenium
+- Rails-dom-testing
+- Capybara
+
+当然还有其他辅助的方法是以 Helper 的形式提供的。
+
+### 🔤 今天我来列举一下大家都在使用哪些测试相关的 Ruby Gems 来帮助我们更容易的测试
+
+#### AB Testing
+
+- 第一名：unleash
+- 第二名：split
+- 第三名：field test
+
+#### Acceptance Test
+
+- 第一名：cucumber
+- 第二名：turnip
+- 第三名：spinach
+
+#### Browser Testing
+
+- 第一名：capybara
+- 第二名：selenium-webdriver
+- 第三名：watir
+
+#### Continuous Testing
+
+- 第一名（绝对的王者）：guard
+
+#### Cucumber Tools
+
+- 第一名：cuke_modeler
+- 第二名：yard-cucumber
+- 第三名：cuke_sniffer
+
+#### Distributed Testing
+
+- 第一名：knapsack
+- 第二名：spring
+- 第三名：parallel_tests
+
+#### Fixture
+
+- 第一名：factory_bot
+- 第二名：fabrication
+- 第三名：machinist
+
+#### Mocking Web Requests
+
+- 第一名：webmock
+- 第二名：fakeweb
+- 第三名：vcr
+
+#### Mocking
+
+- 第一名：rspec-mocks
+- 第二名：mocha
+- 第三名：mock_redis
+
+#### Random Data Generation
+
+- 第一名：faker
+- 第二名：ffaker
+- 第三名：randexp
+
+#### Rspec Matchers
+
+- 第一名：shoulda-matchers
+- 第二名：email_spec
+- 第三名：rspec-collection_matchers
+
+#### Testing Frameworks
+
+- 第一名：minitest
+- 第二名：rspec
+- 第三名：test-unit
+
+#### Time Warping
+
+- 第一名：timecop
+- 第二名：delorean
+- 第三名：time-warp
+
+## Youtube 视频
+
+除了以上提到的 Ruby Gems 你现在用的是什么？
+
+欢迎观看我的视频： 2013 ~ 2025 年最受欢迎的 Ruby Gem 系列
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qSsF3Oc50mw?si=ioTjlSlNzKf7Bnfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
