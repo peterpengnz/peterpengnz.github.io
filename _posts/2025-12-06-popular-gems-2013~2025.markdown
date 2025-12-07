@@ -36,292 +36,293 @@ date: 2025-12-06 10:00:00 +0000
 
 #### Machine learning:
 
-第一名：rumble
-第二名：tensor-stream
-第三名：tensor_stream-opencl
+- 第一名：rumble
+- 第二名：tensor-stream
+- 第三名：tensor_stream-opencl
 
 #### Maintenance monitoring
 
-第一名：logger
-第二名：lograge
-第三名：newrelic-rpm
-第四名：bullet
-第五名：eye
+- 第一名：logger
+- 第二名：lograge
+- 第三名：newrelic-rpm
+- 第四名：bullet
+- 第五名：eye
 
 #### Math and Science
 
-第一名：minimization
-第二名：rb-gsl
-第三名：flight
-第四名：nmatrix
+- 第一名：minimization
+- 第二名：rb-gsl
+- 第三名：flight
+- 第四名：nmatrix
 
 #### Natural language processing
 
-第一名：rtesseract
-第二名：tesseract-ocr
+- 第一名：rtesseract
+- 第二名：tesseract-ocr
 
 #### Networking
 
-第一名：net-ssh
-第二名：net-scp
-第三名：ipaddress
-第四名：net-sfpt
+- 第一名：net-ssh
+- 第二名：net-scp
+- 第三名：ipaddress
+- 第四名：net-sfpt
 
 #### Provision deploy host
 
-第一名：aws-sdk-core
-第二名：aws-sdk-s3
-第三名：aws-sdk-kms
-第四名：puma
+- 第一名：aws-sdk-core
+- 第二名：aws-sdk-s3
+- 第三名：aws-sdk-kms
+- 第四名：puma
 
 #### Package Dependency Management
 
-第一名：bundler
-第二名：rubygems-update
-第三名：rubygems-bundler
-第四名：appraisal
+- 第一名：bundler
+- 第二名：rubygems-update
+- 第三名：rubygems-bundler
+- 第四名：appraisal
 
 #### Rails plugins
 
-第一名：state_machine
-第二名：babosa
-第三名：carrierwave
-第四名：aasm
+- 第一名：state_machine
+- 第二名：babosa
+- 第三名：carrierwave
+- 第四名：aasm
 
 #### Time space
 
-第一名：i18n
-第二名：chronic
-第三名：geocoder
-第四名：ice_cube
+- 第一名：i18n
+- 第二名：chronic
+- 第三名：geocoder
+- 第四名：ice_cube
 
 #### Web apps services interaction
 
-第一名：rack
-第二名：json
-第三名：nokogirl
-第四名：faraday
+- 第一名：rack
+- 第二名：json
+- 第三名：nokogirl
+- 第四名：faraday
 
 #### Documentation tools
 
-第一名：rdoc
-第二名：yard
-第三名：sdoc
+- 第一名：rdoc
+- 第二名：yard
+- 第三名：sdoc
 
 #### Graphics
 
-第一名：mini_magick
-第二名：chunky_png
-第三名：rqrcode
+- 第一名：mini_magick
+- 第二名：chunky_png
+- 第三名：rqrcode
 
 #### HTML markup
 
-第一名：tilt
-第二名：coderay
-第三名：erubis
+- 第一名：tilt
+- 第二名：coderay
+- 第三名：erubis
 
 #### Javascript
 
-第一名：sprockets
-第二名：execjs
-第三名：uglifier
+- 第一名：sprockets
+- 第二名：execjs
+- 第三名：uglifier
 
 #### FUN
 
-第一名：gosu
-第二名：unimidi
-第三名：chingu
+- 第一名：gosu
+- 第二名：unimidi
+- 第三名：chingu
 
 #### E-commerce and payments
 
-第一名：stripe
-第二名：braintree
-第三名：activemerchant
+- 第一名：stripe
+- 第二名：braintree
+- 第三名：activemerchant
 
 #### Documents reports
 
-第一名：roo
-第二名：pdf-reader
-第三名：prawn
+- 第一名：roo
+- 第二名：pdf-reader
+- 第三名：prawn
 
 #### Developer tools
 
-第一名：bundler
-第二名：activesupport
-第三名：rake
-第四名：concurrent-ruby
-第五名：thor
-第六名：rainbow
-第七名：pry
-第八名：dotenv
-第九名：Docile
-第十名：Bye bug
-第十一名：hashie
-第十二名：terminal-table
-第十三名：eventmachine
-第十四名：highline
-第十五名：awesome_print
+- 第一名：bundler
+- 第二名：activesupport
+- 第三名：rake
+- 第四名：concurrent-ruby
+- 第五名：thor
+- 第六名：rainbow
+- 第七名：pry
+- 第八名：dotenv
+- 第九名：Docile
+- 第十名：Bye bug
+- 第十一名：hashie
+- 第十二名：terminal-table
+- 第十三名：eventmachine
+- 第十四名：highline
+- 第十五名：awesome_print
 
 #### Data persistence
 
-第一名：activerecord
-第二名：connection_pool
-第三名：redis
-第四名：pg
-第五名：orm_adapter
+- 第一名：activerecord
+- 第二名：connection_pool
+- 第三名：redis
+- 第四名：pg
+- 第五名：orm_adapter
 
 #### Data analysis
 
-第一名：jaro_winkler
-第二名：sanitize
-第三名：numerizer
-第四名：numo-narray
-第五名：daru
+- 第一名：jaro_winkler
+- 第二名：sanitize
+- 第三名：numerizer
+- 第四名：numo-narray
+- 第五名：daru
 
 #### Content management blogging
 
-第一名：Jekyll
-第二名：high_voltage
-第三名：middleman
+- 第一名：Jekyll
+- 第二名：high_voltage
+- 第三名：middleman
 
 #### Communication
 
-第一名：actionmailer
-第二名：mail
-第三名：actionmailbox 第四名：premailer
-第五名： letter_opener
+- 第一名：actionmailer
+- 第二名：mail
+- 第三名：actionmailbox
+- 第四名：premailer
+- 第五名： letter_opener
 
 #### Code quality
 
-第一名：rubocop
-第二名：simplecov
-第三名：rubocop-rspec
-第四名：danger
-第五名： standard
+- 第一名：rubocop
+- 第二名：simplecov
+- 第三名：rubocop-rspec
+- 第四名：danger
+- 第五名： standard
 
 #### Code organisation
 
-第一名：virtus
-第二名：dry-validation
-第三名：interactor
-第四名：reform
-第五名：cells
+- 第一名：virtus
+- 第二名：dry-validation
+- 第三名：interactor
+- 第四名：reform
+- 第五名：cells
 
 #### CSS
 
-第一名：sass
-第二名：sass-rails
-第三名：sassc
-第四名：bootstrap-sass
-第五名：compass
+- 第一名：sass
+- 第二名：sass-rails
+- 第三名：sassc
+- 第四名：bootstrap-sass
+- 第五名：compass
 
 #### Security:
 
-第一名：jwt
-第二名：loofah
-第三名：bcrypt
-第四名：devise
-第五名：omniauth
+- 第一名：jwt
+- 第二名：loofah
+- 第三名：bcrypt
+- 第四名：devise
+- 第五名：omniauth
 
 #### Time Warping:
 
-第一名：timecop
-第二名：delorean
-第三名：time-warp
+- 第一名：timecop
+- 第二名：delorean
+- 第三名：time-warp
 
 #### Testing Frameworks ruby gem:
 
-第一名：minitest
-第二名：rspec
-第三名：test-unit
+- 第一名：minitest
+- 第二名：rspec
+- 第三名：test-unit
 
 #### Rspec Matchers:
 
-第一名：shoulda-matchers
-第二名：email_spec
-第三名：rspec-collection_matchers
+- 第一名：shoulda-matchers
+- 第二名：email_spec
+- 第三名：rspec-collection_matchers
 
 #### Random Data Generation:
 
-第一名：faker
-第二名：ffaker
-第三名：randexp
-第四名：forgery
-第五名：data-anoymization
+- 第一名：faker
+- 第二名：ffaker
+- 第三名：randexp
+- 第四名：forgery
+- 第五名：data-anoymization
 
 #### Mocking:
 
-第一名：rspec-mocks
-第二名：mocha
-第三名：mock_redis
+- 第一名：rspec-mocks
+- 第二名：mocha
+- 第三名：mock_redis
 
 #### Mocking Web Requests:
 
-第一名：webmock
-第二名：vcr
-第三名：fakeweb
+- 第一名：webmock
+- 第二名：vcr
+- 第三名：fakeweb
 
 #### Fixture:
 
-第一名：factory_bot
-第二名：fabrication
-第三名：machinist
+- 第一名：factory_bot
+- 第二名：fabrication
+- 第三名：machinist
 
 #### Distributed Testing:
 
-第一名：knapsack
-第二名：spring
-第三名：parallel_tests
-第四名：spork
-第五名： zeus
+- 第一名：knapsack
+- 第二名：spring
+- 第三名：parallel_tests
+- 第四名：spork
+- 第五名： zeus
 
 #### Cucumber Tools:
 
-第一名：cuke_modeler
-第二名：yard-cucumber
-第三名：cuke_sniffer
-第四名：viewcumber
-第五名： gherkin_lint
+- 第一名：cuke_modeler
+- 第二名：yard-cucumber
+- 第三名：cuke_sniffer
+- 第四名：viewcumber
+- 第五名： gherkin_lint
 
 #### Continuous Testing:
 
-第一名：guard
-第二名：guard-spec
-第三名：guard-rubocop
-第四名：zentest
-第五名：rack-livereload
+- 第一名：guard
+- 第二名：guard-spec
+- 第三名：guard-rubocop
+- 第四名：zentest
+- 第五名：rack-livereload
 
 #### Browser Testing:
 
-第一名：capybara
-第二名：selenium-webdriver
-第三名：watir
-第四名：poltergeist
-第五名：site_prism
+- 第一名：capybara
+- 第二名：selenium-webdriver
+- 第三名：watir
+- 第四名：poltergeist
+- 第五名：site_prism
 
 #### Acceptance Test:
 
-第一名：cucumber
-第二名：turnip
-第三名：spinach
+- 第一名：cucumber
+- 第二名：turnip
+- 第三名：spinach
 
 #### Static Website Generation:
 
-第一名：jekyll
-第二名：high_voltage
-第三名：middleman
+- 第一名：jekyll
+- 第二名：high_voltage
+- 第三名：middleman
 
 #### AB Testing:
 
-第一名：unleash
-第二名：split
-第三名：field
+- 第一名：unleash
+- 第二名：split
+- 第三名：field
 
 #### Background Jobs:
 
-第一名：sidekiq
-第二名：bunny
-第三名：delayed_job
+- 第一名：sidekiq
+- 第二名：bunny
+- 第三名：delayed_job
 
 ## Youtube 视频
 
@@ -329,4 +330,4 @@ date: 2025-12-06 10:00:00 +0000
 
 欢迎观看我的视频： 2013 ~ 2025 年最受欢迎的 Ruby Gem 系列
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qSsF3Oc50mw?si=ioTjlSlNzKf7Bnfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=hq762mV40NynQI8G&amp;list=PLHCHNcoUtD-GT2oH3KpcM2-hUN_j1m9-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
